@@ -2,3 +2,22 @@
 	background:url(./discLogo.jpg) no-repeat fixed 50% 20%;
 }
 
+.h1 {
+	background-color:blue;
+	color:white;
+	height:100px;
+	text-align:center;
+}
+
+.p_home {
+	color:blue;
+	font:20px comic sans ms,sans-serif;
+}
+
+.p_home_2{
+	color:blue;
+	font:15px comic sans ms,sans-serif;
+	position:absolute;
+	right:125px;
+	width:350px;
+}
