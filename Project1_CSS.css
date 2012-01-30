@@ -1,21 +1,25 @@
 .body {
-	background:url(./discLogo.jpg) no-repeat fixed 50% 20%;
+	background:url(./field.png) no-repeat fixed 50% 20%;
 }
 
 .h1 {
-	color:blue;
+	color:black;
 	height:100px;
 	text-align:center;
 }
 
-.p_home {
-	color:blue;
-	font:20px comic sans ms,sans-serif;
+h2 {
+	color:white;
 }
 
-.p_home_2{
+.p_home {
 	color:blue;
-	font:15px comic sans ms,sans-serif;
+	font:20px comic sans ms;
+}
+
+.p_home_2 {
+	color:blue;
+	font:15px comic sans ms;
 	position:absolute;
 	right:185px;
 	width:350px;
@@ -23,13 +27,14 @@
 
 .bb {
 	color:white;
+	font:15px comic sans ms;
 }
 
 .transbox {
 	width:350px;
 	height:350px;
-	background-color:blue;
-	border:3px solid black;
+	background-color:green;
+	border:5px solid white;
 	opacity:0.80;
 	filter:alpha(opacity=80);
 }
@@ -42,4 +47,46 @@
   input:focus {
 	background:black; 
 	color:white;
+}
+
+.column1 {
+	float:left;
+	width:298px;
+	height:800px;
+	background-color:#00a000;
+	padding:10px;
+	text-align:left;
+	color:black;
+	margin-top:0px;
+	font:20px comic sans ms;
+	border-right:dotted 3px #FFFFFF;
+	opacity:0.90;
+	filter:alpha(opacity=90);
+} 
+.column2 {
+	float:left;
+	width:298px;
+	height:800px;
+	background-color:#00a000;
+	padding:10px;
+	text-align:left;
+	color:black;
+	margin-top:0px;
+	font:20px comic sans ms;
+	border-right:dotted 3px #FFFFFF;
+	opacity:0.90;
+	filter:alpha(opacity=90);
+}
+.column3 {
+	float:left;
+	width:298px;
+	height:800px;
+	background-color:#00a000;
+	padding:10px;
+	text-align:left;
+	color:black;
+	margin-top:0px;
+	font:20px comic sans ms;
+	opacity:0.90;
+	filter:alpha(opacity=90);
 }
