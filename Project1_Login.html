@@ -9,16 +9,8 @@
 		<link rel="shortcut icon" type="image/x-icon" href="ultiLogo.jpg" /> 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 		<script src="http://twitter.github.com/bootstrap/1.4.0/bootstrap-modal.js"></script>	
-
-		<script>
-			$(document).ready(function() {
-				$("modal-from-dom").bind('show', function() {
-					var name = $("#name").val();
-					$("#name_header").text("Who loves ulitmate?, " + name + " loves ultimate!");
-				});
-			});
-		</script>
 	</head>
+
 	<body class="body">
 		<div class="topbar">
 			<div class="fill">
@@ -50,7 +42,7 @@
 				<div class="span6">
 					<ul class="pills">
 						<li><a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1.html">Home</a></li>
-						<li><a href="#">About</a></li>
+						<li><a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1_About.html">About</a></li>
 						<li class="active"><a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1_Login.html">Login</a></li>
 					</ul>
 				</div>
@@ -59,6 +51,37 @@
 		
 		<hr>
 		
+		<div class="container">
+			<div class="row">
+				<div class="span7 transbox">
+					<p>
+						<form class="bb" action="#">
+							<h3 class="bb">Login to your account here to access more information about dates of our practices and tournaments!</h2>
+							<br>
+							<b>Username: </b><input type="text" name="username" size="8" />
+							<br><br>
+							<b>Password: </b><input type="password" name="password" size="8" />
+							<br><br>
+							<input type="submit" value="SUBMIT" />
+						</form>
+					</p>
+				</div>
+
+				<div class="span7 transbox offset2">
+					<p>
+						<form class="bb" action="#">
+							<h3 class="bb">Sign-up for an account to access more information about ultimate frisbee and dates of our practices and more!</h2>
+							<br>
+							<b>Create Username: </b><input type="text" name="username" size="8" />
+							<br><br>
+							<b>Create Password: </b><input type="password" name="password" size="8" />
+							<br><br>
+							<input type="submit" value="SIGN-UP" />
+						</form>
+					</p>
+				</div>
+			</div>
+		</div>	
 		
 	</body>
 </html>
