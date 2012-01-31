@@ -7,10 +7,25 @@
 		<link rel="stylesheet" type="text/css" href="mystyle.css" />
 		<link rel="stylesheet" type="text/css" href="Project1_CSS.css" />
 		<link rel="shortcut icon" type="image/x-icon" href="ultiLogo.jpg" /> 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>	
 		<script src="http://twitter.github.com/bootstrap/1.4.0/bootstrap-modal.js"></script>	
 
-		
+		<script>
+			$(document).ready(function() {
+			  $("#modal-from-dom").bind('show', function() {
+				var name = $("#name").val();
+				$("#name_header").text("Who loves ultimate? " + name + " loves ultimate!");
+			  });
+			});
+		</script>
+
+		<script>
+			function init() {
+				//alert("hello world!") ;
+				$("#clickable_paragraph").click(addParagraph);
+			}
+		</script>
+						
 	</head>
 	<body class="body">
 		
@@ -25,15 +40,16 @@
 						<li><a href="#">Tournament List</a></li>
 						<li><a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1_Login.html">Login</a></li>	
 					</ul>
-					<form action="">
+					<form action="https://www.google.com/#hl=en&tok=qng2VpIZgPkRIe7lyw8xiw&cp=12&gs_id
+					=7m&xhr=t&q=ultimate+frisbee&pf=p&sclient=psy-ab&source=hp&pbx=1&oq=ultimate+fri&a
+					q=0&aqi=g4&aql=&gs_sm=&gs_upl=&bav=on.2,or.r_gc.r_pw.,cf.osb&fp=f74b341c0d792ed5&b
+					iw=1440&bih=714">
 						<input type="text" placeholder="Search Ultimate" />
-					</form>
+					</form
 				</div>
 			</div>
 		</div>
-		
-		<HR>
-		
+				
 		<div class="container">
 			<div class="row">
 				<div class="span16">
@@ -60,10 +76,32 @@
 			</div>
 		</div>
 		<br/><br/><br/>
+		
+		<div id="modal-from-dom" class="modal hide fade">
+			<div class="modal-header">
+				<a href="#" class="close">&times;</a>
+				<h3 id="name_header"></h3>
+			</div>
 
-		
-		
-		
-		
+			<div class="modal-body">
+				<p><h3>Ultimate is fun!</h3></p>
+			</div>
+			
+			<div class="modal-footer">
+				<a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1.html" class="btn danger">Primary</a>
+				<a href="#" class="btn secondary">Secondary</a>
+			</div>
+
+		</div>
+
+		<div class="container">
+			<label class="label1">Tell me your name:</label>
+			<input id="name" type="text"/>
+			<button data-controls-modal="modal-from-dom" data-backdrop="true" data-keyboard="true" class="btn primary">
+				Click Me!
+			</button>
+
+		</div>
+
 	</body>
 </html>
