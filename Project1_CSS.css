@@ -1,5 +1,5 @@
 .body {
-	background:url(./field.png) no-repeat fixed 80% 20%;
+	background:url(./field.png) no-repeat fixed 80% 40%;
 }
 
 .h1 {
@@ -111,4 +111,9 @@ h2 {
 	border:3px solid #FFFFFF;
 	opacity:0.90;
 	filter:alpha(opacity=90);
+}
+
+.label1 {
+	color:white;
+	font:15px comic sans ms;
 }
