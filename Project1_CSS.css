@@ -1,5 +1,5 @@
 .body {
-	background:url(./field.png) no-repeat fixed 50% 20%;
+	background:url(./field.png) no-repeat fixed 80% 20%;
 }
 
 .h1 {
@@ -18,11 +18,16 @@ h2 {
 }
 
 .p_home_2 {
-	color:blue;
-	font:15px comic sans ms;
+	color:black;
+	font:20px comic sans ms;
 	position:absolute;
-	right:185px;
-	width:350px;
+	right:135px;
+	width:500px;
+}
+
+.pHome {
+	color:white;
+	font:25px comic sans ms;
 }
 
 .bb {
@@ -30,13 +35,17 @@ h2 {
 	font:15px comic sans ms;
 }
 
-.transbox {
-	width:350px;
+ .pppp  {
+	color:#00a000;
+ }
+
+ .transbox {
+	width:375px;
 	height:350px;
-	background-color:green;
-	border:5px solid white;
-	opacity:0.80;
-	filter:alpha(opacity=80);
+	background-color:#00a000;
+	border:1px solid black;
+	opacity:0.90;
+	filter:alpha(opacity=90);
 }
   
   input:hover {
@@ -49,44 +58,57 @@ h2 {
 	color:white;
 }
 
-.column1 {
-	float:left;
-	width:298px;
-	height:800px;
-	background-color:#00a000;
-	padding:10px;
+.column {
+	width:375px;
+	height:350px;
 	text-align:left;
-	color:black;
-	margin-top:0px;
-	font:20px comic sans ms;
-	border-right:dotted 3px #FFFFFF;
+	background-color:#00a000;
+	border:3px solid white;
 	opacity:0.90;
 	filter:alpha(opacity=90);
 } 
-.column2 {
+
+.column1 {
 	float:left;
-	width:298px;
-	height:800px;
-	background-color:#00a000;
+	width:300px;
+	height:850px;
+	background-color:#00A000;
 	padding:10px;
 	text-align:left;
 	color:black;
 	margin-top:0px;
 	font:20px comic sans ms;
-	border-right:dotted 3px #FFFFFF;
+	border:3px solid #FFFFFF;
+	opacity:0.90;
+	filter:alpha(opacity=90);
+} 
+
+.column2 {
+	float:left;
+	width:282px;
+	height:850px;
+	background-color:#00A000;
+	padding:10px;
+	text-align:left;
+	color:black;
+	margin-top:0px;
+	font:20px comic sans ms;
+	border:3px solid #FFFFFF;
 	opacity:0.90;
 	filter:alpha(opacity=90);
 }
+
 .column3 {
 	float:left;
-	width:298px;
-	height:800px;
-	background-color:#00a000;
+	width:300px;
+	height:850px;
+	background-color:#00A000;
 	padding:10px;
 	text-align:left;
 	color:black;
 	margin-top:0px;
 	font:20px comic sans ms;
+	border:3px solid #FFFFFF;
 	opacity:0.90;
 	filter:alpha(opacity=90);
 }
