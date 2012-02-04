@@ -9,99 +9,95 @@
 		<link rel="shortcut icon" type="image/x-icon" href="ultiLogo.jpg" /> 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>	
 		<script src="http://twitter.github.com/bootstrap/1.4.0/bootstrap-modal.js"></script>	
-
-		<script>
-			$(document).ready(function() {
-			  $("#modal-from-dom").bind('show', function() {
-				var name = $("#name").val();
-				$("#name_header").text("Who loves ultimate? " + name + " loves ultimate!");
-			  });
-			});
-		</script>
-
-		<script>
-			function init() {
-				//alert("hello world!") ;
-				$("#clickable_paragraph").click(addParagraph);
-			}
-		</script>
-						
+	
 	</head>
 	<body class="body">
-		
-		<div class="topbar">
-			<div class="fill">
-				<div class="container">
-					<h3><a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1.html">Ultimate Frisbee</a></h3>
-					<ul>
-						<li class="active"><a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1.html">Home</a></li>
-						<li><a href="http://www.ultimatefrisbeerules.org">Rules & How to Play</a></li>
-						<li><a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1_About.html">About</a></li>
-						<li><a href="#">Tournament List</a></li>
-						<li><a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1_Login.html">Login</a></li>	
-					</ul>
-					<form action="https://www.google.com/#hl=en&tok=qng2VpIZgPkRIe7lyw8xiw&cp=12&gs_id
-					=7m&xhr=t&q=ultimate+frisbee&pf=p&sclient=psy-ab&source=hp&pbx=1&oq=ultimate+fri&a
-					q=0&aqi=g4&aql=&gs_sm=&gs_upl=&bav=on.2,or.r_gc.r_pw.,cf.osb&fp=f74b341c0d792ed5&b
-					iw=1440&bih=714">
-						<input type="text" placeholder="Search Ultimate" />
-					</form
-				</div>
-			</div>
-		</div>
-				
+		<br/>
 		<div class="container">
-			<div class="row">
-				<div class="span16">
-					<h1 class="h1">Home Page!</h1>
+			<div class="row h1">
+				<div class="span6">
+					<a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1.html"><img src="ProjectPics/tfsLogo.jpg" alt="Logo" width="500" height="222" /></a>
+				</div>
+				
+				<div class="span5 offset5">
+					<ul class="tabs">
+						<li class="active"><a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1.html">Home</a></li>
+						<li><a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1_About.html">About</a></li>
+						<li><a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1_Login.html">Login</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>	
 		
 		<div class="container">
 			<div class="row">
-				<div class="span7 column">
-					<p class="pHome">
-						Welcome to the Ultimate Frisbee webpage! Here you'll learn about what ultimate frisbee is about and how to play it.
-						So take a look around the webpage and hope you enjoy and learn a little something about ultimate.
+				<div class="column">
+					<h2>Ultimate Frisbee</h2>
+					<p class="bb">
+						Welcome to The Flying Snatch's Ultimate Frisbee webpage! Are you interested in ultimate frisbee? Do you know what ultimate frisbee is? 
+						Well if you're interested in ultimate, or don't even know anything about it, then you've come to the right place. 
+						Here you'll learn about what ultimate frisbee is about and how to play it. 
+						We encourage everyone, to come out and play. New, kinda new, or experienced players are always welcome at practice at any point of the season.
+						Our practices are on Tuesdays and Thursdays from 7 p.m. to 9 p.m. on the field inside the UNCA track.
+						We'll teach you everything you need to know about the sport. 
+						If you do come to practice please bring, if you can, cleats or running shoes, lots of water, a white shirt and a dark shirt. 
+						So take a look around the webpage and hope you enjoy and learn a little something about ultimate. Hope to see you on the fields. 
+						<br/>
+						<img class="img" src="ProjectPics/discLogo.jpg" width="250" height="251" />
 					</p>
 				</div>
-				<div class="span7 offset2">
-					<img border="1" src="flyingSnatchMen.jpg" alt="Team Pic" width="500" height="375" />
-					<br>
+				
+				<div class="column_2">
+					<img border="1" src="ProjectPics/flyingSnatchMen.jpg" alt="Team Pic" width="500" height="375" />
+					
 					<p class ="p_home_2">
 						2011-2012 UNCA Men's Ultimate Frisbee Team
 					</p>
+					<br/><br/><hr/>
+					<h2>Contacts</h2>
+					<p class="bb">
+						If you have any questions please call or e-mail us. 
+						<br/> Phone: 828-777-1234. <br/> E-mail: ggultimate@gmail.com. <br/> Address: University Heights, Asheville, NC 28804<br/>
+						Everybody is welcome to come out. Login to your accoutns or sign-up for one for more information.
+						<br/>We are also on facebook, so please check us out to get updates on practice.<br/>
+						<a href="http://www.facebook.com/TheFlyingSnatch"><img class="img2" src="ProjectPics/facebook.png" alt="facebook" width="50" height="50"/></a>	<br/>					
+					</p>
 				</div>
 			</div>
 		</div>
-		<br/><br/><br/>
-		
-		<div id="modal-from-dom" class="modal hide fade">
-			<div class="modal-header">
-				<a href="#" class="close">&times;</a>
-				<h3 id="name_header"></h3>
-			</div>
-
-			<div class="modal-body">
-				<p><h3>Ultimate is fun!</h3></p>
-			</div>
-			
-			<div class="modal-footer">
-				<a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1.html" class="btn danger">Primary</a>
-				<a href="#" class="btn secondary">Secondary</a>
-			</div>
-
-		</div>
-
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<hr/>
 		<div class="container">
-			<label class="label1">Tell me your name:</label>
-			<input id="name" type="text"/>
-			<button data-controls-modal="modal-from-dom" data-backdrop="true" data-keyboard="true" class="btn primary">
-				Click Me!
-			</button>
-
+			<div class="row">
+				<div class="col1">
+					<a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1.html"><img src="ProjectPics/tfsLogo.jpg" alt="Logo" width="300" height="133" /></a>	
+					<br/><p class="pCopyright">
+						Copyright 2012 Flying Snatch
+					</p>
+				</div>
+				
+				<div class="col2">
+					<dl>
+						<dt class="bb">Flying Snatch Links</dt><hr class="hr2"/>
+						<dt class="bb"><a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1.html">Home</a></dt>
+						<dt class="bb"><a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1_About.html">About</a></dt>
+						<dt class="bb"><a href="http://joe.cs.unca.edu/~gayg/CSCI344/Project1_Login.html">Login</a></dt>
+					</dl>
+				</div>
+				
+				<div class="col3">
+					<dl>
+						<dt class="bb">Ultimate Resources</dt><hr class="hr2"/>
+						<dt class="bb"><a href="http://www.usaultimate.org/index.html">USA Ultimate</a></dt>
+						<dt class="bb"><a href="http://www.ultimatefrisbee.com/">Ultimate Frisbee</a></dt>
+						<dt class="bb"><a href="http://www.ultimatehandbook.com/uh/">Ultimate Handbook</a></dt>
+					</dl>
+				</div>
+			</div>
 		</div>
-
 	</body>
 </html>
