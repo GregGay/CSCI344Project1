@@ -16,11 +16,6 @@ h2 {
 	color:black;
 }
 
-h5 {
-	color:black;
-	float:center;
-}
-
 hr {
 	background-color:#2F4F4F;
 	height:3px;
@@ -31,11 +26,6 @@ hr {
 	height:3px;
 }
 
-.p_home {
-	color:blue;
-	font:20px comic sans ms;
-}
-
 .p_home_2 {
 	color:black;
 	font:20px comic sans ms;
@@ -44,40 +34,16 @@ hr {
 	width:500px;
 }
 
-.pHome {
-	background-color:white;
-	color:black;
-	font:25px comic sans ms;
-}
-
-.bb {
+.textStyle {
 	color:black;
 	font:15px comic sans ms;
 	font-weight:bold;
-}
-
- .pppp  {
-	color:#00a000;
- }
-
- .transbox {
-	width:375px;
-	height:350px;
-	background-color:#00a000;
-	border:3px solid white;
-	opacity:0.90;
-	filter:alpha(opacity=90);
 }
 
 .pCopyright {
 	font-weight:bold;
 	position:absolute;
 	left:280px;
-}
-
-.label1 {
-	color:black;
-	font:15px comic sans ms;
 }
 
 input:hover {
@@ -98,6 +64,10 @@ input:focus {
 .img2 {
 	position:absolute;
 	right:480px;
+}
+
+.img_About {
+	float:left;
 }
 
 .column {
